@@ -3,8 +3,11 @@
 This is Group #8 assignment on designing a model that is able to predict the best player for a lineup if a player is missing.
 
 Our Program uses Word2Vec for the embedding of players, teams.
+
 Pytorch for the training of the model that is used for the preidcition. 
+
 Pickle to transport the embeddings from the training file to the testing file. 
+
 Can be used with a CPU or a CUDA compatible device.
 
 Setup: 

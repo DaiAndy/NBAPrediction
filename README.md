@@ -2,14 +2,16 @@
 
 Setup: 
 
-1. nvidia smi - checks for cuda compatibility
-2. install anaconda3 for windows - add path to system variables
-3. install pycharm
-4. new project - custom - virtualenv
-5. install cuda toolkit if running cuda, if no cuda compatible devices:
+1. Install pycharm or any IDE
+3. new project - custom - virtualenv - use the virtual environtment setup in this github - Python 3.11
+4. Install cuda toolkit if running cuda, if no cuda compatible devices:
       import os
       os.environ["CUDA_VISIBLE_DEVICES"] = "-1"  # Forces PyTorch to use CPU
 
-6. installing imports: 
-      install torch
-      install pandas
+5. installing imports: 
+      import numpy as np
+      import pandas as pd
+      import torch
+      import torch.nn as nn
+      from gensim.models import Word2Vec
+      import pickle

@@ -7,7 +7,7 @@ Pytorch for the training of the model that is used for the preidcition.
 Pickle to transport the embeddings from the training file to the testing file. 
 Can be used with a CPU or a CUDA compatible device.
 
-Setup: 
+#Setup: 
 
 1. Install pycharm or any IDE
 3. new project - custom - virtualenv - use the virtual environtment setup in this github - Python 3.11
